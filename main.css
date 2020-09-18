@@ -9,21 +9,58 @@ word-break: break-all;
 }
 
 .container {
-display: inline-block;
-width: 100%;
-padding-top: 60px;
-padding-bottom: 60px;
+    display: inline-block;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .hero-row {
     display: inline-block;
     width: 600px;
-    margin-left: calc ((100% - 600px)/ 2 );
+    margin-left: calc(( 100% - 600px ) / 2);
 }
 
+.row {
+    display: inline-block;
+    width: 1000px;
+    margin-left: calc(( 100% - 1000px ) / 2);
+}
+
+.left-column {
+    display: inline-block;
+    width: 50%;
+    float: left;
 
 
+}
+
+.right-column {
+    display: inline-block;
+    width: 40%;
+    float: right;
+    border-bottom: 1px solid #ffffff;
+    background-color: white;
+
+
+}
+
+.socials {
+    display: inline-block;
+    width: 100%;
+
+
+
+}
+
+.footer-texts {
+    display: inline-block;
+    width: 600px;
+    margin-left: calc(( 100% - 600px ) / 2);
+
+
+}
 
 .bg-blue {
-    background-color: blueviolet;
+    background-color: #03a9f5;
 }
