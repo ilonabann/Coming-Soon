@@ -16,8 +16,45 @@
     display: inline-block;
     width: 600px;
     margin-left: calc(( 100% - 600px ) / 2);
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
+.hero-row > .logo{
+    height: 40px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    
+
+}
+.title {
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 60px;
+    margin-bottom: 30px;
+
+}
+
+.sub-title{
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 60px;
+
+}
+
+.hero-row > .form {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+}
+
+.clock{
+    margin-bottom: 60px;
+
+}
 .row {
     display: inline-block;
     width: 1000px;
